@@ -1,0 +1,156 @@
+{
+    "common_modifications": [
+        {
+            "name": "Phosphorylation",
+            "targets": ["S", "T", "Y"],
+            "mass_shift": 79.9663,
+            "formula_add": {"P": 1, "O": 3},
+            "formula_remove": {"H": 1},
+            "pyopenms_name": "Phospho"
+        },
+        {
+            "name": "Oxidation",
+            "targets": ["M"],
+            "mass_shift": 15.9949,
+            "formula_add": {"O": 1},
+            "formula_remove": {},
+            "pyopenms_name": "Oxidation"
+        },
+        {
+            "name": "Carbamidomethyl",
+            "targets": ["C"],
+            "mass_shift": 57.0215,
+            "formula_add": {"C": 2, "H": 3, "N": 1, "O": 1},
+            "formula_remove": {"H": 1},
+            "pyopenms_name": "Carbamidomethyl"
+        },
+        {
+            "name": "Acetylation",
+            "targets": ["K", "N-term"],
+            "mass_shift": 42.0106,
+            "formula_add": {"C": 2, "H": 2, "O": 1},
+            "formula_remove": {"H": 1},
+            "pyopenms_name": "Acetyl"
+        },
+        {
+            "name": "Methylation",
+            "targets": ["K", "R"],
+            "mass_shift": 14.0157,
+            "formula_add": {"C": 1, "H": 2},
+            "formula_remove": {},
+            "pyopenms_name": "Methyl"
+        },
+        {
+            "name": "Dimethylation",
+            "targets": ["K", "R"],
+            "mass_shift": 28.0313,
+            "formula_add": {"C": 2, "H": 4},
+            "formula_remove": {},
+            "pyopenms_name": "Dimethyl"
+        },
+        {
+            "name": "Carbamylation",
+            "targets": ["K", "N-term"],
+            "mass_shift": 43.0058,
+            "formula_add": {"C": 1, "H": 1, "N": 1, "O": 1},
+            "formula_remove": {"H": 1},
+            "pyopenms_name": "Carbamyl"
+        },
+        {
+            "name": "Deamidation",
+            "targets": ["N", "Q"],
+            "mass_shift": 0.9840,
+            "formula_add": {"O": 1},
+            "formula_remove": {"N": 1, "H": 1},
+            "pyopenms_name": "Deamidated"
+        },
+        {
+            "name": "Pyro-Glu from E",
+            "targets": ["E"],
+            "mass_shift": -18.0106,
+            "formula_add": {},
+            "formula_remove": {"H": 2, "O": 1},
+            "pyopenms_name": "Glu->pyro-Glu"
+        },
+        {
+            "name": "Pyro-Glu from Q",
+            "targets": ["Q"],
+            "mass_shift": -17.0265,
+            "formula_add": {},
+            "formula_remove": {"H": 3, "N": 1},
+            "pyopenms_name": "Gln->pyro-Glu"
+        }
+    ],
+    "custom_modifications": [
+        {
+            "name": "Phosphopantetheine",
+            "targets": ["S"],
+            "mass_shift": 339.0998,
+            "formula_add": {"C": 11, "H": 21, "N": 2, "O": 6, "P": 1, "S": 1},
+            "formula_remove": {"H": 1},
+            "pyopenms_name": "Phosphopantetheine"
+        },
+        {
+            "name": "Carboxymethyl",
+            "targets": ["C"],
+            "mass_shift": 58.0055,
+            "formula_add": {"C": 2, "H": 2, "O": 2},
+            "formula_remove": {"H": 1},
+            "pyopenms_name": "Carboxymethyl"
+        },
+        {
+            "name": "Biotinylation",
+            "targets": ["K"],
+            "mass_shift": 226.0776,
+            "formula_add": {"C": 10, "H": 14, "N": 2, "O": 2, "S": 1},
+            "formula_remove": {"H": 1},
+            "pyopenms_name": "Biotin"
+        }
+    ],
+    "n_terminal_modifications": [
+        {
+            "name": "Acetylation",
+            "mass_shift": 42.0106,
+            "formula_add": {"C": 2, "H": 2, "O": 1},
+            "formula_remove": {"H": 1},
+            "pyopenms_name": "Acetyl"
+        },
+        {
+            "name": "Formylation",
+            "mass_shift": 27.9949,
+            "formula_add": {"C": 1, "O": 1},
+            "formula_remove": {"H": 1},
+            "pyopenms_name": "Formyl"
+        },
+        {
+            "name": "TMT6plex",
+            "mass_shift": 229.1629,
+            "formula_add": {"C": 12, "H": 19, "N": 3, "O": 2},
+            "formula_remove": {"H": 1},
+            "pyopenms_name": "TMT6plex"
+        },
+        {
+            "name": "iTRAQ4plex",
+            "mass_shift": 144.1021,
+            "formula_add": {"C": 7, "H": 12, "N": 2, "O": 1},
+            "formula_remove": {"H": 1},
+            "pyopenms_name": "iTRAQ4plex"
+        }
+    ],
+    "c_terminal_modifications": [
+        {
+            "name": "Amidation",
+            "mass_shift": -0.9840,
+            "formula_add": {"N": 1, "H": 1},
+            "formula_remove": {"O": 1},
+            "pyopenms_name": "Amidated"
+        },
+        {
+            "name": "GPI-anchor",
+            "mass_shift": 614.5442,
+            "formula_add": {"C": 37, "H": 74, "N": 1, "O": 6},
+            "formula_remove": {"H": 1, "O": 1},
+            "pyopenms_name": "GPI-anchor"
+        }
+    ]
+}

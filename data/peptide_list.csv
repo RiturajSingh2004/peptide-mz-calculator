@@ -1,0 +1,17 @@
+Sequence,Description,ChargeState,Notes
+PEPTIDE,Test peptide,2,Standard test sequence
+KLPGFSPFR,Fragment of bradykinin,2,Common in MS standards
+ACDEFGHIKLMNPQRSTVWY,All standard amino acids,3,Contains all 20 amino acids
+DRVYIHPFHL,Angiotensin I,2,Cardiovascular peptide
+RPPGFSPFR,Bradykinin,2,Inflammatory mediator
+RPKPQQFFGLM,Substance P,2,Neurotransmitter
+SYSMEHFRWG,ACTH fragment 1-10,2,Hormone fragment
+FVNQHLCGSHLVEALYLVC,Insulin B-chain fragment,3,Contains disulfide bonds
+EQRLGNQWAVGHLM,Bombesin,3,Neuropeptide
+GLSDGEWQQVLNVWGK,Myoglobin fragment,2,Common in proteomics standards
+YGGFLRKYP,Neoendorphin,2,Opioid peptide
+ACKDDQNPHISCDKF,Custom peptide 1,2,Contains C-terminal amidation
+TPVSSFTTK,Phosphorylated test,2,Often modified at S5
+MHRQETVDC,Met oxidation test,2,Contains oxidation-prone M
+WCAAPGPSWVR,Disulfide test,2,Contains internal disulfide bond
+ACYKGYGCYF,Cysteine-rich peptide,1,Multiple Cys residues
