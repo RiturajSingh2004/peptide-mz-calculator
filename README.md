@@ -1,6 +1,6 @@
 # Peptide m/z Calculator
 
-![OpenMS Logo](src/peptide_mz_calculator/assets/logo.png)
+<img src="src/peptide_mz_calculator/assets/logo.png" alt="OpenMS Logo" width="100" height="100" />
 
 A professional web application for mass spectrometry data analysis, developed as part of the Google Summer of Code (GSoC) project with OpenMS.
 
