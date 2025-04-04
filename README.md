@@ -1,6 +1,6 @@
 # Peptide m/z Calculator
 
-![OpenMS Logo](https://openms.de/wp-content/uploads/2016/06/OpenMS.png)
+![OpenMS Logo](src/peptide_mz_calculator/assets/logo.png)
 
 A professional web application for mass spectrometry data analysis, developed as part of the Google Summer of Code (GSoC) project with OpenMS.
 
@@ -46,7 +46,7 @@ The Peptide m/z Calculator addresses this gap by providing an intuitive graphica
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/username/peptide-mz-calculator.git
+git clone https://github.com/RiturajSingh2004/peptide-mz-calculator.git
 cd peptide-mz-calculator
 ```
 
